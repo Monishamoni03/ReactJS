@@ -1,0 +1,18 @@
+import React from 'react';
+//import ReactDOM from 'react-dom';
+
+var createReactClass = require('create-react-class');
+var withoutES6 = createReactClass({
+  render: function() {
+    return <h1>React without ES6 </h1>;
+  }
+});
+
+
+/*class App extends React.Component{            //with es6
+  render(){
+    return <h1>Welcome</h1>
+  }
+}*/
+
+export default withoutES6;

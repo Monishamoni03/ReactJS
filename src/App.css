@@ -1,36 +1,8 @@
 .App {
-  display: flex;
-  align-items: center;
-  justify-content: center;
- /* text-align: center;*/
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  box-sizing: border-box;
-
-}
-h1{
   text-align: center;
 }
-form{
-  background-color: lightblue;
-  padding: 20px;
-  border-radius: 8px;
-}
-button{
-  width: 100%;
-  height: 50px;
-  padding: 10px;
-  border: none;
-  background-color: lightcoral;
-  color: white;
-  border-radius: 5px;
-  font-size: 18px;
-  cursor: pointer;
-  margin-top: 15px;
-  margin-bottom: 25px;
-}
-/*.App-logo {
+
+.App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -63,4 +35,4 @@ button{
   to {
     transform: rotate(360deg);
   }
-}*/
+}
