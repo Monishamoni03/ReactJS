@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import ControlledComponent from './components/ControlledComponent.js';
 //import HelloWorld from './components/HelloWorld.js';
-import Portals from './components/Portals.js';
-import HigherOrderComponent from './components/HigherOrderComponent';
+//import Portals from './components/Portals.js';
+//import HigherOrderComponent from './components/HigherOrderComponent';
+//import UncontrolledComponent from './components/UncontrolledComponent.js';
 
 
 class App extends Component {
@@ -10,7 +12,9 @@ class App extends Component {
             <div className='App'>
                  {/* <HelloWorld /> */}
                  {/* <Portals /> */}
-                 <HigherOrderComponent />
+                 {/* <HigherOrderComponent /> */}
+                 {/* <UncontrolledComponent /> */}
+                 <ControlledComponent />
             </div>
         );
     }
