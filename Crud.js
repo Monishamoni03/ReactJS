@@ -96,3 +96,79 @@ class Crud extends React.Component {
 }
 
 export default Crud;
+
+
+//App.css
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App {
+  margin: 0 auto;
+  width : 50%;
+  background-color: lightgrey;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.fields {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: block;
+  border: 1px solid rgb(109, 99, 119);
+}
+
+.button {
+  width: 100%;
+  background-color: azure;
+  color: #282c34;
+  padding: 15px 20px;
+  margin: 1px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.table {
+  background-color: lightslategray;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
